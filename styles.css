@@ -1,7 +1,8 @@
 :root{
     --heading-font-family:"Playfair", system-ui;
-    --p-font-family: "Poppins", system-ui;
+    --p-font-family: "Poppins", serif;
     --background-color: #f9f7fe;
+    --default-color: #6c63ff;
 
 }
 
@@ -11,7 +12,7 @@
     text-align: center;
 }
 
-.btn{
+.btn-primary{
     color: #f9f7fe;
     padding: 15px 30px;
     border-radius: 5px;
@@ -21,7 +22,7 @@
     
 }
 
-p{
+.whole p {
     font-family: var(--p-font-family);
     font-size: 36px;
     font-weight: bold;
@@ -29,15 +30,77 @@ p{
 
 }
 
-h1{
+.whole h1{
     font-family: var(--heading-font-family);
     font-size: 96px;
     font-weight: bold;
     color: black;
 }
 
-h2{
+.whole h2{
     font-family: var(--heading-font-family);
     font-size: 32px;
     font-weight: bold;
+}
+
+.comment{
+    font-size: 16px;
+    font-family: var(--p-font-family);
+    text-align: center;
+    line-height: 1.5;
+    
+}
+
+.apps h2{
+    font-family: var(--heading-font-family);
+    color: black;
+    font-size: 44px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.2;
+    font-weight: bold;
+
+}
+
+.apps p{
+    font-size: 16px;
+    line-height: 1.5;
+    margin-top: 0;
+    text-align: left;
+}
+
+.info{
+    padding: 120px 60px;
+    text-align: center;
+}
+
+.btn-outline-primary {
+    font-size: 18px;
+    color: var(--default-color);
+    border: 1px solid var(--default-color);
+    border-radius: 4px;
+    padding: 15px 30px;
+    line-height: 27px;
+    
+}
+
+.image-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 991.98px) {
+    .container {
+        width: 100%;
+        padding: auto;
+        margin: auto;
+    }
+    .whole {
+        padding: 80px 20px;
+
+    }
+    .whole h1 {
+        font-size: 44px;
+        line-height: 2;
+    }
 }
