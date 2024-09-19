@@ -141,6 +141,20 @@
     font-size: 14px;
 }
 
+.logo {
+    max-height: 40px;
+
+}
+
+.active {
+    color: var(--default-color) !important;
+}
+
+.nav-link {
+    padding: 0 30px !important;
+    font-family: var(--p-font-family) !important;
+}
+
 @media (max-width: 991.98px) {
     .container {
         width: 100%;
