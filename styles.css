@@ -90,7 +90,7 @@
 }
 
 .about {
-    padding: 160px 20px;
+    padding: 60px 20px;
 }
 
 .about h1{
@@ -116,7 +116,7 @@
 }
 
 .works {
-    padding: 120px 20px;
+    padding: 80px 60px;
     margin: 30px;
 }
 
@@ -154,6 +154,8 @@
     padding: 0 30px !important;
     font-family: var(--p-font-family) !important;
 }
+
+
 
 footer h4{
     font-family: var(--heading-font-family);
@@ -194,6 +196,13 @@ footer .socials a{
     border-radius: 50%;
     font-size: 14px;
     transition: all 100ms ease-in-out;
+}
+
+
+.final {
+    font-family: var(--p-font-family);
+    font-size: 16px;
+    text-align: center;
 }
 
 @media (max-width: 991.98px) {
